@@ -41,23 +41,21 @@ function showingHiding() {
       pointers.eq(i).removeClass("active");
     }
   }
+  checkFunction();
 }
 
 //functions end
 
 //main code
 showingHiding();
-checkFunction();
 
 nextElement.click(function () {
   current++;
   showingHiding();
-  checkFunction();
 });
 prevElement.click(function () {
   current--;
   showingHiding();
-  checkFunction();
 });
 
 for (let i = 0; i < images.length; i++) {
@@ -65,6 +63,5 @@ for (let i = 0; i < images.length; i++) {
     //using indexOf() method to get the index of the clicked element
     current = pointersArray.indexOf(this);
     showingHiding();
-    checkFunction();
   });
 }
