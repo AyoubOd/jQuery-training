@@ -6,7 +6,7 @@ let images = $(".img-container img");
 let prevElement = $(".previous");
 let nextElement = $(".next");
 let pointers = $(".pointers ul li");
-//creating an array from var pointes because indexOf() method is not available in pointers variable
+//creating an array from var pointes because indexOf() method is not available to use with varirables other than arrays
 let pointersArray = Array.from($(".pointers ul li"));
 
 //globale variables
