@@ -34,7 +34,7 @@ function addTask() {
 
   //creating some animations
   emptyTask.slideUp(600, function () {
-    //adding the newTask after the adding container but it have a display none so it won't be shown
+    //adding the newTask after the adding container but it has a display none so it won't be shown
     $(".adding-container").after(newTask);
     addButton.toggleClass("rotation");
 
