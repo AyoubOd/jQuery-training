@@ -15,7 +15,7 @@ let completed = 0;
 
 function checkFunction() {
   if (input.val() === "") {
-    alert("You can't enter an empty task!");
+    alert("You can't add an empty task!");
   } else {
     addTask();
   }
