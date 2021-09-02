@@ -53,7 +53,7 @@ function delTask() {
   $(this)
     .parentsUntil("body")
     .slideUp(600, function () {
-      //removing the parent element todo container
+      //removing the parent element (todo container)
       $(this).parentsUntil("body").remove();
 
       //checking if there is no tasks to show the empty task
