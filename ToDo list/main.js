@@ -65,7 +65,7 @@ function delTask() {
   tasksCount--;
   $(".tasks-num").text(tasksCount);
 
-  completed--;
+  completed--;//when we press delbutton we need to reset 'completed' because delbutton is a part of todo-container
   $(".completed").text(completed);
 }
 //end functions
